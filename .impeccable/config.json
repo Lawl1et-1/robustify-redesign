@@ -1,0 +1,44 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "ai-color-palette",
+        "value": "*",
+        "files": [
+          ".impeccable/decision/passport.html"
+        ],
+        "createdAt": "2026-11-08T08:14:06.497Z",
+        "reason": "assistant: throwaway decision-page sketch; violet is passport stamp ink, flat, no gradient"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          ".impeccable/decision/sevenseg.html"
+        ],
+        "createdAt": "2026-11-08T08:15:24.559Z",
+        "reason": "assistant: decision sketch; the dim digit is an intentional unlit ghost segment, not text"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "georgia",
+        "files": [
+          ".impeccable/decision/assigned.html"
+        ],
+        "createdAt": "2026-11-08T08:58:34.067Z",
+        "reason": "assistant: discarded decision-round sketch, not shipping; Georgia never used in the site"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "georgia",
+        "files": [
+          ".impeccable/decision/passport.html"
+        ],
+        "createdAt": "2026-11-08T08:58:34.314Z",
+        "reason": "assistant: discarded decision-round sketch, not shipping; Georgia never used in the site"
+      }
+    ]
+  }
+}

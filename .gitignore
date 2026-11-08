@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+.impeccable/config.local.json
+.next-prod
+
+.vercel
+.impeccable/review/
+.impeccable/decision/
+.impeccable/questions/
+.impeccable/hook.cache.json
+.impeccable/brief-body.md

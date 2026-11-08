@@ -1,0 +1,5 @@
+.next
+.next-prod
+.impeccable
+node_modules
+*.tsbuildinfo

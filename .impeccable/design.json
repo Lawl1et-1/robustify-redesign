@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-08T10:00:00.000Z",
+  "title": "Design System: Robustify",
+  "extensions": {
+    "colorMeta": {
+      "tamper-orange": { "role": "primary", "displayName": "Tamper Orange", "canonical": "#ff5b1f", "cssVar": "--accent (dark)", "tonalRamp": ["#3a1305", "#5e1e08", "#8a2c0b", "#b83b0f", "#e24a14", "#ff5b1f", "#ff9a72", "#ffd9c9"] },
+      "tamper-orange-hover": { "role": "primary", "displayName": "Tamper Orange Hover", "canonical": "#ff7442", "cssVar": "--accent-hover (dark)" },
+      "tamper-orange-text": { "role": "primary", "displayName": "Tamper Orange Text", "canonical": "#ff6a33", "cssVar": "--accent-text (dark)", "note": "Orange text under 18px." },
+      "tamper-orange-light": { "role": "primary", "displayName": "Tamper Orange (light)", "canonical": "#e2480c", "cssVar": "--accent (light)", "tonalRamp": ["#341003", "#561a05", "#7c2607", "#a5330a", "#c93d07", "#e2480c", "#f39368", "#fbd6c4"] },
+      "tamper-orange-light-hover": { "role": "primary", "displayName": "Tamper Orange Hover (light)", "canonical": "#c93d07", "cssVar": "--accent-hover (light)" },
+      "tamper-orange-light-text": { "role": "primary", "displayName": "Tamper Orange Text (light)", "canonical": "#b03905", "cssVar": "--accent-text (light)", "note": "Orange text under 18px." },
+      "verified-lime": { "role": "secondary", "displayName": "Verified Lime", "canonical": "#c4f03a", "cssVar": "--ok / --ok-ink (dark)", "tonalRamp": ["#1f2a04", "#334608", "#4c670c", "#678a12", "#8fc31a", "#c4f03a", "#dcf68a", "#f2fcd2"] },
+      "verified-lime-light": { "role": "secondary", "displayName": "Verified Lime (light fill)", "canonical": "#8fc31a", "cssVar": "--ok (light)" },
+      "verified-lime-light-text": { "role": "secondary", "displayName": "Verified Lime Text (light)", "canonical": "#3b6e00", "cssVar": "--ok-ink (light)" },
+      "graphite-ground": { "role": "neutral", "displayName": "Graphite Ground", "canonical": "#141517", "cssVar": "--bg (dark)", "tonalRamp": ["#0b0b0c", "#141517", "#1b1c1f", "#232428", "#2d2e33", "#3e4046", "#85878d", "#ecedee"] },
+      "graphite-raised": { "role": "neutral", "displayName": "Graphite Raised", "canonical": "#1b1c1f", "cssVar": "--bg-2 (dark)" },
+      "graphite-well": { "role": "neutral", "displayName": "Graphite Well", "canonical": "#232428", "cssVar": "--bg-3 (dark)" },
+      "graphite-hairline": { "role": "neutral", "displayName": "Graphite Hairline", "canonical": "#2d2e33", "cssVar": "--line (dark)" },
+      "graphite-hairline-strong": { "role": "neutral", "displayName": "Graphite Hairline Strong", "canonical": "#3e4046", "cssVar": "--line-2 (dark)" },
+      "graphite-fg": { "role": "neutral", "displayName": "Graphite Foreground", "canonical": "#ecedee", "cssVar": "--fg (dark)" },
+      "graphite-fg-2": { "role": "neutral", "displayName": "Graphite Secondary", "canonical": "#a9abb0", "cssVar": "--fg-2 (dark)" },
+      "graphite-fg-3": { "role": "neutral", "displayName": "Graphite Tertiary", "canonical": "#85878d", "cssVar": "--fg-3 (dark)" },
+      "instrument-ground": { "role": "neutral", "displayName": "Instrument Ground", "canonical": "#edf0f2", "cssVar": "--bg (light)", "tonalRamp": ["#0d0f12", "#47505c", "#5d6672", "#b6bec8", "#cfd5dc", "#e2e6ea", "#edf0f2", "#ffffff"] },
+      "instrument-raised": { "role": "neutral", "displayName": "Instrument Raised", "canonical": "#ffffff", "cssVar": "--bg-2 (light)" },
+      "instrument-well": { "role": "neutral", "displayName": "Instrument Well", "canonical": "#e2e6ea", "cssVar": "--bg-3 (light)" },
+      "instrument-hairline": { "role": "neutral", "displayName": "Instrument Hairline", "canonical": "#cfd5dc", "cssVar": "--line (light)" },
+      "instrument-hairline-strong": { "role": "neutral", "displayName": "Instrument Hairline Strong", "canonical": "#b6bec8", "cssVar": "--line-2 (light)" },
+      "instrument-fg": { "role": "neutral", "displayName": "Instrument Foreground", "canonical": "#0d0f12", "cssVar": "--fg (light)" },
+      "instrument-fg-2": { "role": "neutral", "displayName": "Instrument Secondary", "canonical": "#47505c", "cssVar": "--fg-2 (light)" },
+      "instrument-fg-3": { "role": "neutral", "displayName": "Instrument Tertiary", "canonical": "#5d6672", "cssVar": "--fg-3 (light)" }
+    },
+    "softTints": [
+      { "name": "accent-soft", "dark": "rgba(255, 91, 31, 0.12)", "light": "rgba(226, 72, 12, 0.1)", "purpose": "Primary button field, cost callout, gate node, switch-on track, focused-input ring." },
+      { "name": "grid-line", "dark": "rgba(233, 236, 239, 0.045)", "light": "rgba(13, 15, 18, 0.05)", "purpose": "Inner hairline on layer plates." }
+    ],
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero headline; the closing contact headline runs larger on the same settings." },
+      "headline": { "displayName": "Headline", "purpose": "Section h2, balanced wrapping." },
+      "title": { "displayName": "Title", "purpose": "h3 in lists, nodes, roadmap." },
+      "lede": { "displayName": "Lede", "purpose": "Section intro paragraph in fg-2, capped at 60ch." },
+      "body": { "displayName": "Body", "purpose": "Prose." },
+      "label": { "displayName": "Label", "purpose": "Tags, table heads, tier names and flags, badges, roadmap status. Archivo, sentence case." },
+      "button": { "displayName": "Button", "purpose": "Button labels, Archivo 700 at wdth 110." },
+      "data": { "displayName": "Data", "purpose": "Hashes, seeds, build ids, timings, prices, code, logs. Never labels." }
+    },
+    "shadows": [
+      { "name": "instrument-lift", "value": "0 24px 60px -24px rgba(0, 0, 0, 0.7), 0 2px 6px rgba(0, 0, 0, 0.35)", "valueLight": "0 24px 50px -28px rgba(13, 15, 18, 0.35), 0 2px 6px rgba(13, 15, 18, 0.08)", "purpose": "Floating instruments only: hero readouts, diff panel, heartbeat monitor, contact form, featured tier, mobile sticky bar." },
+      { "name": "focus-ring", "value": "0 0 0 3px var(--accent-soft)", "purpose": "Focused input, paired with an orange border." },
+      { "name": "featured-ring", "value": "0 0 0 2px var(--accent), var(--shadow)", "purpose": "Featured pricing tier." }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Exponential ease-out for all state transitions and reveals." },
+      { "name": "ease-in-out", "value": "cubic-bezier(0.65, 0, 0.35, 1)", "purpose": "Looping packet travel on the endgame track." },
+      { "name": "button-wipe", "value": "clip-path 0.5s var(--ease)", "purpose": "Button fill wipe left to right." },
+      { "name": "button-brackets", "value": "inset 0.35s var(--ease), opacity 0.35s var(--ease)", "purpose": "Bracket spread (primary) and resolve (ghost)." },
+      { "name": "reveal", "value": "opacity, transform translateY(24px), filter blur(6px) 0.9s var(--ease)", "purpose": "Scroll reveal; content visible by default without JS; disabled under reduced motion." },
+      { "name": "live-ping", "value": "ping 2.4s var(--ease) infinite", "purpose": "Live status dot only." }
+    ],
+    "breakpoints": [
+      { "name": "phone", "value": "520px" },
+      { "name": "phone-wide", "value": "640px" },
+      { "name": "sticky-cta", "value": "720px" },
+      { "name": "tablet", "value": "860px" },
+      { "name": "two-to-one", "value": "960px" },
+      { "name": "tiers-two", "value": "1080px" }
+    ],
+    "themes": {
+      "mechanism": "data-theme attribute on <html>, set by an inline script before first paint from localStorage 'rb-theme', falling back to prefers-color-scheme.",
+      "values": ["dark", "light"]
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Bracketed frame for every primary action: tinted field, orange corner brackets, solid key cell with arrow, fill wipe on hover.",
+      "html": "<a href=\"#\" class=\"ds-btn ds-btn-primary\"><span class=\"ds-btn-label\">Get a licence</span><span class=\"ds-btn-key\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></span></a>",
+      "css": ".ds-btn { --h: 52px; --bracket: var(--accent, #ff5b1f); --b-len: 10px; position: relative; isolation: isolate; display: inline-flex; align-items: stretch; height: var(--h); padding: 0; font: 700 16px/1 var(--body, Archivo, system-ui, sans-serif); font-stretch: 110%; color: var(--fg, #ecedee); text-decoration: none; background: transparent; border: 0; border-radius: 0; cursor: pointer; white-space: nowrap; transition: color 0.35s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn-label { display: inline-flex; align-items: center; padding: 0 24px; flex: 1; } .ds-btn::after { content: \"\"; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(var(--bracket), var(--bracket)) top left / var(--b-len) 2px no-repeat, linear-gradient(var(--bracket), var(--bracket)) top left / 2px var(--b-len) no-repeat, linear-gradient(var(--bracket), var(--bracket)) top right / var(--b-len) 2px no-repeat, linear-gradient(var(--bracket), var(--bracket)) top right / 2px var(--b-len) no-repeat, linear-gradient(var(--bracket), var(--bracket)) bottom left / var(--b-len) 2px no-repeat, linear-gradient(var(--bracket), var(--bracket)) bottom left / 2px var(--b-len) no-repeat, linear-gradient(var(--bracket), var(--bracket)) bottom right / var(--b-len) 2px no-repeat, linear-gradient(var(--bracket), var(--bracket)) bottom right / 2px var(--b-len) no-repeat; transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1), inset 0.35s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn::before { content: \"\"; position: absolute; inset: 0; z-index: -1; background: var(--accent, #ff5b1f); clip-path: inset(0 100% 0 0); transition: clip-path 0.5s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn:active { transform: translateY(1px); } .ds-btn-primary { background: var(--accent-soft, rgba(255, 91, 31, 0.12)); } .ds-btn-primary::after { inset: -4px; } .ds-btn-primary:hover, .ds-btn-primary:focus-visible { color: var(--accent-ink, #141517); } .ds-btn-primary:hover::before, .ds-btn-primary:focus-visible::before { clip-path: inset(0 0 0 0); } .ds-btn-primary:hover::after { inset: -8px; } .ds-btn:focus-visible { outline: 2px solid var(--accent, #ff5b1f); outline-offset: 3px; } .ds-btn-key { display: grid; place-items: center; width: var(--h); flex: none; background: var(--accent, #ff5b1f); color: var(--accent-ink, #141517); border-left: 1px solid rgba(20, 21, 23, 0.25); } .ds-btn-key svg { width: 18px; height: 18px; transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn:hover .ds-btn-key svg { transform: translateX(3px); }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary action: a hairline outline that resolves into foreground corner brackets while a well-tone fill wipes in.",
+      "html": "<a href=\"#\" class=\"ds-btn ds-btn-ghost\"><span class=\"ds-btn-label\">See how it works</span></a>",
+      "css": ".ds-btn { --h: 52px; --b-len: 10px; position: relative; isolation: isolate; display: inline-flex; align-items: stretch; height: var(--h); padding: 0; font: 700 16px/1 var(--body, Archivo, system-ui, sans-serif); font-stretch: 110%; color: var(--fg, #ecedee); text-decoration: none; background: transparent; border: 0; border-radius: 0; cursor: pointer; white-space: nowrap; } .ds-btn-label { display: inline-flex; align-items: center; padding: 0 24px; flex: 1; } .ds-btn::after { content: \"\"; position: absolute; pointer-events: none; background: linear-gradient(var(--bracket), var(--bracket)) top left / var(--b-len) 2px no-repeat, linear-gradient(var(--bracket), var(--bracket)) top left / 2px var(--b-len) no-repeat, linear-gradient(var(--bracket), var(--bracket)) top right / var(--b-len) 2px no-repeat, linear-gradient(var(--bracket), var(--bracket)) top right / 2px var(--b-len) no-repeat, linear-gradient(var(--bracket), var(--bracket)) bottom left / var(--b-len) 2px no-repeat, linear-gradient(var(--bracket), var(--bracket)) bottom left / 2px var(--b-len) no-repeat, linear-gradient(var(--bracket), var(--bracket)) bottom right / var(--b-len) 2px no-repeat, linear-gradient(var(--bracket), var(--bracket)) bottom right / 2px var(--b-len) no-repeat; transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1), inset 0.35s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn::before { content: \"\"; position: absolute; inset: 0; z-index: -1; clip-path: inset(0 100% 0 0); transition: clip-path 0.5s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn-ghost { --bracket: var(--fg, #ecedee); box-shadow: inset 0 0 0 1px var(--line-2, #3e4046); transition: color 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn-ghost::after { opacity: 0; inset: 4px; } .ds-btn-ghost::before { background: var(--bg-3, #232428); } .ds-btn-ghost:hover, .ds-btn-ghost:focus-visible { box-shadow: inset 0 0 0 1px transparent; } .ds-btn-ghost:hover::after, .ds-btn-ghost:focus-visible::after { opacity: 1; inset: 0; } .ds-btn-ghost:hover::before { clip-path: inset(0 0 0 0); } .ds-btn:focus-visible { outline: 2px solid var(--accent, #ff5b1f); outline-offset: 3px; } .ds-btn:active { transform: translateY(1px); }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Square field on ground fill with a strong hairline; focus turns the border orange with a soft orange ring.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-label\">Work email</span><input class=\"ds-input\" type=\"email\" placeholder=\"you@company.com\"></label>",
+      "css": ".ds-field { display: grid; gap: 8px; } .ds-field-label { font: 600 14px/1.2 var(--body, Archivo, system-ui, sans-serif); color: var(--fg, #ecedee); } .ds-input { width: 100%; font: 400 16px/1.4 var(--body, Archivo, system-ui, sans-serif); color: var(--fg, #ecedee); background: var(--bg, #141517); border: 1px solid var(--line-2, #3e4046); border-radius: 0; padding: 13px 14px; transition: border-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-input::placeholder { color: var(--fg-3, #85878d); } .ds-input:hover { border-color: var(--fg-3, #85878d); } .ds-input:focus, .ds-input:focus-visible { outline: none; border-color: var(--accent, #ff5b1f); box-shadow: 0 0 0 3px var(--accent-soft, rgba(255, 91, 31, 0.12)); }"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Sticky translucent header: expanded wordmark with the square logo, fg-2 links that brighten onto a well fill.",
+      "html": "<header class=\"ds-header\"><a class=\"ds-brand\" href=\"#\"><svg viewBox=\"0 0 32 32\" fill=\"none\" aria-hidden=\"true\"><rect x=\"1.5\" y=\"1.5\" width=\"29\" height=\"29\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"9\" y=\"9\" width=\"14\" height=\"14\" transform=\"rotate(45 16 16)\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"13\" y=\"13\" width=\"6\" height=\"6\" fill=\"var(--accent, #ff5b1f)\"/></svg>Robustify</a><nav class=\"ds-nav\"><a href=\"#\">Engine</a><a href=\"#\">Kill switch</a><a href=\"#\">Pricing</a></nav></header>",
+      "css": ".ds-header { display: flex; align-items: center; gap: 32px; height: 72px; padding: 0 24px; background: color-mix(in srgb, var(--bg, #141517) 82%, transparent); backdrop-filter: saturate(140%) blur(14px); border-bottom: 1px solid var(--line, #2d2e33); } .ds-brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--fg, #ecedee); font: 800 19px/1 var(--display, Archivo, system-ui, sans-serif); font-stretch: 125%; letter-spacing: -0.02em; } .ds-brand svg { width: 26px; height: 26px; } .ds-nav { display: flex; gap: 4px; margin-left: auto; } .ds-nav a { padding: 8px 12px; font: 500 15px/1.2 var(--body, Archivo, system-ui, sans-serif); color: var(--fg-2, #a9abb0); text-decoration: none; transition: color 0.2s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-nav a:hover { color: var(--fg, #ecedee); background: var(--bg-3, #232428); } .ds-nav a:focus-visible { outline: 2px solid var(--accent, #ff5b1f); outline-offset: 3px; }"
+    },
+    {
+      "name": "Threat Chip",
+      "kind": "chip",
+      "refersTo": "threat-chip",
+      "description": "Static hairline tag for threat models and similar sets.",
+      "html": "<span class=\"ds-chip\">Captured hardware</span> <span class=\"ds-chip ds-chip-dev\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 6v6h4\"/></svg>In development</span>",
+      "css": ".ds-chip { display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border: 1px solid var(--line-2, #3e4046); font: 400 14px/1.2 var(--body, Archivo, system-ui, sans-serif); color: var(--fg-2, #a9abb0); } .ds-chip-dev { padding: 6px 10px; border-style: dashed; font-weight: 600; font-size: 12px; letter-spacing: 0.01em; } .ds-chip svg { width: 14px; height: 14px; }"
+    },
+    {
+      "name": "Instrument Panel",
+      "kind": "card",
+      "refersTo": "instrument-panel",
+      "description": "Signature framed readout: hairline frame, raised fill, ruled head, mono data with fg values and fg-2 keys, live dot in lime.",
+      "html": "<div class=\"ds-panel\"><div class=\"ds-panel-head\"><span class=\"ds-dot\"></span>Protected build</div><div class=\"ds-panel-row\"><span>build</span><b>#0042</b></div><div class=\"ds-panel-row\"><span>seed</span><b>0ddc03b4</b></div><div class=\"ds-panel-row\"><span>configs generated</span><b class=\"ds-accent\">23</b></div></div>",
+      "css": ".ds-panel { display: grid; gap: 6px; padding: 16px 18px; min-width: 228px; background: var(--bg-2, #1b1c1f); border: 1px solid var(--line, #2d2e33); box-shadow: var(--shadow, 0 24px 60px -24px rgba(0,0,0,0.7), 0 2px 6px rgba(0,0,0,0.35)); font: 500 12.5px/1.5 var(--mono, 'JetBrains Mono', ui-monospace, monospace); font-variant-numeric: tabular-nums; color: var(--fg-2, #a9abb0); } .ds-panel-head { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; font: 600 12px/1 var(--body, Archivo, system-ui, sans-serif); letter-spacing: 0.01em; color: var(--fg-3, #85878d); } .ds-panel-row { display: flex; justify-content: space-between; gap: 24px; } .ds-panel-row b { color: var(--fg, #ecedee); font-weight: 600; } .ds-accent { color: var(--accent-text, #ff6a33) !important; } .ds-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--ok, #c4f03a); animation: ds-ping 2.4s cubic-bezier(0.16, 1, 0.3, 1) infinite; } @keyframes ds-ping { 0% { box-shadow: 0 0 0 0 rgba(196, 240, 58, 0.7); } 70%, 100% { box-shadow: 0 0 0 8px transparent; } } @media (prefers-reduced-motion: reduce) { .ds-dot { animation: none; } }"
+    },
+    {
+      "name": "Kill Switch",
+      "kind": "custom",
+      "refersTo": "kill-switch",
+      "description": "Square toggle; on, the track takes the orange tint and the square thumb slides to orange.",
+      "html": "<button type=\"button\" class=\"ds-switch\" role=\"switch\" aria-checked=\"false\" onclick=\"this.setAttribute('aria-checked', this.getAttribute('aria-checked') !== 'true')\"><span class=\"ds-switch-track\"><span class=\"ds-switch-thumb\"></span></span>Revoke this build</button>",
+      "css": ".ds-switch { display: inline-flex; align-items: center; gap: 14px; background: none; border: 0; padding: 0; color: var(--fg, #ecedee); font: 650 15px/1 var(--body, Archivo, system-ui, sans-serif); cursor: pointer; } .ds-switch-track { position: relative; width: 64px; height: 32px; border: 1px solid var(--line-2, #3e4046); background: var(--bg-3, #232428); transition: background-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s cubic-bezier(0.16, 1, 0.3, 1); } .ds-switch-thumb { position: absolute; top: 3px; left: 3px; width: 24px; height: 24px; background: var(--fg-2, #a9abb0); transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.3s cubic-bezier(0.16, 1, 0.3, 1); } .ds-switch[aria-checked=\"true\"] .ds-switch-track { background: var(--accent-soft, rgba(255, 91, 31, 0.12)); border-color: var(--accent, #ff5b1f); } .ds-switch[aria-checked=\"true\"] .ds-switch-thumb { transform: translateX(32px); background: var(--accent, #ff5b1f); } .ds-switch:hover .ds-switch-track { border-color: var(--fg-3, #85878d); } .ds-switch:focus-visible { outline: 2px solid var(--accent, #ff5b1f); outline-offset: 3px; }"
+    },
+    {
+      "name": "Roadmap Status",
+      "kind": "chip",
+      "refersTo": "road-status",
+      "description": "Honest status marker: square swatch plus Archivo label; lime only for shipped, half-filled orange for in progress, empty hairline for planned.",
+      "html": "<span class=\"ds-status ds-shipped\"><i></i>Shipped</span> <span class=\"ds-status ds-progress\"><i></i>In progress</span> <span class=\"ds-status\"><i></i>Planned</span>",
+      "css": ".ds-status { display: inline-flex; align-items: center; gap: 8px; margin-right: 16px; font: 600 12px/1 var(--body, Archivo, system-ui, sans-serif); letter-spacing: 0.01em; color: var(--fg-3, #85878d); } .ds-status i { width: 10px; height: 10px; border: 1px solid var(--fg-3, #85878d); } .ds-shipped { color: var(--ok-ink, #c4f03a); } .ds-shipped i { background: var(--ok, #c4f03a); border-color: var(--ok, #c4f03a); } .ds-progress { color: var(--accent-text, #ff6a33); } .ds-progress i { border-color: var(--accent, #ff5b1f); background: linear-gradient(90deg, var(--accent, #ff5b1f) 50%, transparent 50%); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Live Specimen",
+    "overview": "The page is a protected build on the bench, not a brochure about protection. Every surface reads as test equipment: a graphite (or instrument-white) ground, 1px hairline rules on a strict 8px lattice, square-cornered panels with mono readouts, and one tamper orange that means \"act\" or \"alarm\". The proof is shown working (a re-seeding 3D specimen, a heartbeat you can flatline, a layer stack that separates on scroll) rather than asserted in cards and stats.\n\nDensity is calm and measured: large, expanded, heavy Archivo headlines over plain Archivo prose capped near 60ch, with data confined to framed instruments. Color is near-absent; neutrals do the structural work so that orange and lime keep their meaning. Both themes are first-class and share every rule; the theme is set before first paint via `data-theme` on `<html>`, falling back to the OS preference.\n\nConfirmed rejections: the navy-glow SaaS default with neon-cyan gradients and icon-card grids; glowing \"neo\" buttons; scrambling button labels; eyebrow or kicker labels above headings; a big-number stats band.",
+    "keyCharacteristics": [
+      "Neutral graphite dark ground, cool instrument-white light ground, both fully specified.",
+      "One tamper orange for every action and alarm; verified lime only for live, verified or shipped status.",
+      "Archivo with the width axis for all words; JetBrains Mono only for real data.",
+      "Square corners, 1px hairlines, 8px lattice.",
+      "Bracketed-frame buttons with a solid key cell and a fill wipe; no glow anywhere.",
+      "Real depth only where it carries meaning: the WebGL specimen and the CSS 3D layer plates."
+    ],
+    "rules": [
+      { "name": "The One Signal Rule", "body": "Orange is the only color that asks for a click or reports a failure. If an element is neither an action nor an alarm, it is not orange.", "section": "colors" },
+      { "name": "The Lime Means Live Rule", "body": "Lime marks only something live, verified or shipped. Never decoration, never bullets: checkmarks and list icons use `fg-2`.", "section": "colors" },
+      { "name": "The Small Orange Rule", "body": "Orange text under 18px uses the `-text` token, never the fill token, in both themes.", "section": "colors" },
+      { "name": "The Real Data Rule", "body": "JetBrains Mono is for values a machine produced: hashes, seeds, timings, prices, code, logs. Every label, including panel captions and status words, is Archivo.", "section": "typography" },
+      { "name": "The No Kicker Rule", "body": "No eyebrow or kicker label sits above a heading. A heading stands alone, followed by its lede.", "section": "typography" },
+      { "name": "The No Glow Rule", "body": "Nothing glows. No colored shadows, no neon halos on buttons or text. Emphasis comes from fills, brackets and rules.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do use tamper orange for every action and alarm, and the `-text` orange for any orange text under 18px.",
+      "Do reserve verified lime for live, verified or shipped status; color checkmarks and list icons `fg-2`.",
+      "Do set every word in Archivo and only machine-produced data (hashes, seeds, timings, prices, code, logs) in JetBrains Mono with tabular numerals.",
+      "Do keep corners square, rules 1px, and spacing on the 8px lattice.",
+      "Do build buttons as bracketed frames: tinted field, corner brackets, solid orange key cell with arrow, left-to-right fill wipe on hover; ghost resolves from hairline into brackets.",
+      "Do specify both themes for every new token: graphite (`#141517` / `#1b1c1f`) and instrument-white (`#edf0f2` / `#fff`).",
+      "Do use exponential ease-out (cubic-bezier(0.16, 1, 0.3, 1)) for motion, keep content visible by default, and show still states under reduced motion."
+    ],
+    "donts": [
+      "Don't add glow, neon halos or colored shadows to buttons or anything else.",
+      "Don't scramble or animate button labels.",
+      "Don't put eyebrow or kicker labels above headings.",
+      "Don't add a big-number stats band; proof lives in the proof strip, readouts and reviews.",
+      "Don't use lime for decoration, bullets or checkmarks.",
+      "Don't set labels, captions or status words in mono.",
+      "Don't drift toward navy-glow SaaS: no neon-cyan gradients, no icon-card grids."
+    ]
+  }
+}
